@@ -55,7 +55,7 @@ void MainWindow::on_pushButton_5_clicked()
   QMessageBox msg;
   msg.setWindowTitle("Message box");
   msg.setText("button");
-  msg.setStandardButtons(QMessageBox::Ignore | QMessageBox::No | QMessageBox::Discard);
+  msg.setStandardButtons(QMessageBox::Ignore | QMessageBox::No | QMessageBox::Retry);
 
   msg.exec();
 }
